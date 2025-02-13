@@ -32,13 +32,13 @@ video{
 }
 */
 main {
+  /* filter: blur(10px); */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   min-height: 100vh;
-  /* filter: blur(10px); */
   transition: opacity 2s ease-in-out, filter 2s ease-in-out;
 }
 
@@ -46,6 +46,7 @@ header {
   margin-top: 1em;
   text-align: center;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
 }
@@ -76,7 +77,7 @@ ul {
   margin: 0 auto;
   padding: 2em;
   max-width: 480px;
-  min-width: 400px;
+  min-width: 300px;
 }
 
 ul>li {
